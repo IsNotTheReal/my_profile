@@ -4,6 +4,6 @@ function index() {
 function portfolio(){
     window.location.href = "https://isnotthereal.github.io/profile-portfolio";
 }
-function red(){
+function network(){
     window.location.href = "https://isnotthereal.github.io/profile-networks";
 }
