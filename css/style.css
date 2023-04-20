@@ -8,6 +8,10 @@
 /*Body & cursor config*/
 *{
     cursor: none;
+    -webkit-user-select: none;     
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 html{
     width: 100%;
@@ -74,6 +78,7 @@ body{
     font-family: var(--font-family);
     color: white;
     font-size: 3em;
+    margin-left: 5px;
 }
 
 /*Buttons config*/

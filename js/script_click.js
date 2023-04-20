@@ -1,9 +1,9 @@
 function index() {
-    window.location.href = "https://isnotthereal.github.io/profile/";
+    document.getElementById("title").innerHTML = "Is-Not-The-Real";
   }
 function portfolio(){
-    window.location.href = "https://isnotthereal.github.io/profile-portfolio";
+    document.getElementById("title").innerHTML = "Portfolio";
 }
 function network(){
-    window.location.href = "https://isnotthereal.github.io/profile-networks";
+    document.getElementById("title").innerHTML = "Networks";
 }
