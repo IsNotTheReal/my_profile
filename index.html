@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo-32x32.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="img/logo-64x64.png">    
+    <link rel="stylesheet" href="css/style.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <div class="cursor-dot" script-cursor-dot></div>
+    <div class="cursor-outline" script-cursor-outline></div>
+    <script src="js/script_cursor.js"></script>
+    <nav>
+        <h1 id="title">Is-Not-The-Real</h1>
+        <ul id="list_elements_nav">
+            <li><button class="btn_nav_top" onclick="index()">Inicio</button></li>
+            <li><button class="btn_nav_top" onclick="portfolio()">Portfolio</button></li>
+            <li><button class="btn_nav_top" onclick="red()">Redes</button></li>
+        </ul>
+        <div id="list_nav_zoom">
+            <button id="btn_menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </button>
+            <div id="list_elements_nav_zoom" style="display: none;">
+                <ul id="list_elements_nav_menu">
+                    <li><button class="btn_nav_top" onclick="index()">Inicio</button></li>
+                    <li><button class="btn_nav_top" onclick="portfolio()">Portfolio</button></li>
+                    <li><button class="btn_nav_top" onclick="red()">Redes</button></li>
+                </ul>
+            </div>
+        </div>
+        <script src="js/script_menu_nav.js"></script>
+        <script src="js/script_menu_nav_zoom.js"></script>
+        <script src="js/script_click.js"></script>
+    </nav>
+    <hr>
+</body>
+</html>
